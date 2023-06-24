@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error",
+    "declarationMap": false,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "types": ["node"],
+    "moduleResolution": "node",
+    "noEmit": false,
+    "strict": true,
+    "target": "esnext"
+  },
+  "include": ["src", "test"],
+  "exclude": ["build"]
+}
